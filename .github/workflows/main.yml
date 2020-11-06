@@ -1,0 +1,7 @@
+- name: Publish Markdown As PDF
+  # You may pin to the exact commit or the version.
+  # uses: shrink/actions-document-publish@4ba693b4b68b303b439233fe226335af9b6c71a5
+  uses: shrink/actions-document-publish@v1
+  with:
+    # List of glob patterns to Markdown files in order of their inclusion in the PDF
+    sources: 'karinpraet/QGIS-Documentation/docs/training_manual/foreword/*.md
